@@ -7,11 +7,10 @@ async function loaded() {
 
     for (let i = 0; i < fonts.length; i++)
     {*/
-        title.innerText = "";
+        //title.innerText = "";
         await sleep(500);
         //title.style.fontFamily = fonts[i];
-        title.style.fontFamily = "monospace";
-        await typeWriter(title, "Cyanic", 150);
+        await typeWriter(title, "Cyanic");
         fadein();
         await blinkingCursor(title, 4);
     //}

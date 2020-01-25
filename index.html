@@ -23,23 +23,27 @@
   <link rel="stylesheet" href="styles/skeleton.css">
   <link rel="stylesheet" href="styles/dark.css">
   <link rel="stylesheet" href="styles/obnoxious.css">
+  <link rel="stylesheet" href="styles/common.css">
+
+  <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="scripts/common.js"></script>
+  <script src="scripts/index.js"></script>
 
   <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– 
--->
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="favicon.png">
 
-<!-- Global site tag (gtag.js) - Google Analytics
-––––––––––––––––––––––––––––––––––––––––––––––––––
--->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156681355-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156681355-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-  gtag('config', 'UA-156681355-1');
-</script>
+    gtag('config', 'UA-156681355-1');
+  </script>
 
 </head>
 <body>
@@ -49,8 +53,8 @@
   <div class="container">
     <div class="row">
       <div class="one-half column" style="margin-top: 25%">
-        <h4 class="animated fontalicious" style="height: 32px;">Cyanic</h4>
-        <p>We make technology stuff, mostly student driven open-source software. Check out our <a href="https://github.com/cyanicdev">GitHub page</a>.</p>
+        <h4 id="title" style="height: 32px;"></h4>
+        <p class="fadein">We make technology stuff, mostly student driven open-source software. Check out our <a href="https://github.com/cyanicdev">GitHub page</a>.</p>
       </div>
     </div>
   </div>
